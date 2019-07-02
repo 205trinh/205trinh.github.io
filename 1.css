@@ -1,1 +1,55 @@
-*{margin: 0; padding: 0;} 
+*{margin: 0;padding: 0;}
+
+a.nav-link {
+    font-family: segoe ui;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 95px;
+    color: #121212;
+}
+
+li.nav-item {
+    margin: 0;
+    padding: 0;
+    margin: 0 17px;
+}
+
+nav.navbar.navbar-light.bg-faded {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
+
+nav.navbar.navbar-light.bg-faded.navbar-fixed-top {
+    background: white;
+} 
+
+@media (max-width: 576px){
+	*{}
+
+li.nav-item {
+    margin: 0 0;
+    float: none!important;
+    display: inline!important;
+}
+
+
+ul.nav.navbar-nav.float-xs-right {
+    float: none;
+    text-align: center;
+}
+
+a.nav-link {
+    line-height: 27px;
+    display: inline!important;
+}
+
+a.navbar-brand {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+}
