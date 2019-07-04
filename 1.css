@@ -1,5 +1,42 @@
 *{margin: 0;padding: 0;}
 
+a.nuthire.btn.btn-primary {
+    width: 150px;
+    border-radius: 0;
+    background: black;
+    border: none;
+}
+
+.tt p {
+    color: #373a3c;
+    font-size: 16px;
+    line-height: 20px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 34px;
+}
+
+.tt h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 22px;
+    margin-top: 20px;
+}
+
+.tt img {
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.tt {
+    z-index: 2;
+    position: relative;
+    padding-top: 24%;
+}
+
+.tt {}
+
 a.navbar-brand {
     margin: 0;
     padding: 0;
@@ -20,6 +57,7 @@ a.navbar-brand {
     width: 50%;
     height: 100%;
     background: #e4555b;
+    z-index: 1;
 }
 
 body, html {
@@ -54,6 +92,11 @@ nav.navbar.navbar-light.bg-faded.navbar-fixed-top {
 @media (max-width: 576px){
 	*{}
 
+.tt img {
+    width: 170px;
+    margin-top: 110px;
+}
+
 li.nav-item {
     margin: 0 0;
     float: none!important;
@@ -62,8 +105,16 @@ li.nav-item {
 
 
 ul.nav.navbar-nav.float-xs-right {
-    float: none;
+    float: none!important;
     text-align: center;
+    background: white;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 109%;
+    left: -15px;
+    padding: 10px 19px;
+    border-top: 1px solid grey;
 }
 
 a.nav-link {
