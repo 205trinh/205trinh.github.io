@@ -1,5 +1,53 @@
 *{margin: 0;padding: 0;}
 
+.khoittnho {
+    margin-bottom: 55px;
+}
+
+.khoittnho p {
+    font-size: 13px;
+    color: #676565;
+    line-height: 21px;
+}
+
+
+span.motcap {
+    font-size: 13px;
+    margin-bottom: 26px;
+    display: block;
+}
+
+.khoittnho h3.tieudecap3 {
+    font-size: 16px;
+    color: #e54f5a;
+    margin-bottom: 20px;
+}
+
+span.dam {
+    font-weight: bold;
+}
+
+h2.tieudecap2 {
+    font-weight: normal;
+    font-family: segoe ui light;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.tieudeto {
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+
+.tieudeto h1 {
+    display: inline;
+    background: url(images/ke.jpg) no-repeat left bottom;
+    padding-bottom: 4px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
 a.nuthire.btn.btn-primary {
     width: 150px;
     border-radius: 0;
